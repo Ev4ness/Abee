@@ -47,10 +47,8 @@ OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
 
-# JANGAN HAPUS YA JANCOK KALAU FORK ATAU CLONE
-OWNER_ID.append(1607338903)
-OWNER_ID.append(1641726479)
-OWNER_ID.append(1423479724)
+# BACOT
+OWNER_ID.append(940232666)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -70,10 +68,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/gabutan_escape"
+    "SUPPORT_CHANNEL", ""
 )  # Example:- https://t.me/gabutan_escape
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/aruna_mutual"
+    "SUPPORT_GROUP", ""
 )  # Example:- https://t.me/aruna_mutual
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
